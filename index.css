@@ -161,3 +161,12 @@ body{
     float: right;
     /* font-size: 20px; */
 }
+.paytxt{
+    border-radius: 10px;
+    transform: translate(0%, 90%);
+    padding: 7px;
+    float: right;
+    font-size: 20px;
+    background-color: #426B1F;
+    color: #ffffff;
+}
