@@ -1,0 +1,74 @@
+body{
+    background: #ccc;
+    color: #000000;
+    height: 100%;
+    margin: 0%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family: 'sans-serif';
+}
+    h1{
+        text-align: center;    
+    }
+    h2{
+        text-align: center;
+    }
+    li{
+        font-size: 24px;
+        text-align: left;
+        text-transform: capitalize;
+        }
+
+p{
+    font-size: 24px;
+    text-align: center;
+}
+
+
+
+.nitrogen{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+.uteran { 
+    border: solid 1px #19e68d ;  
+    padding: 3px;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-align : left ;
+    margin-top: 8px;
+    text-decoration: overline underline ;
+    font-size: 22px;
+}
+ul {
+    list-style-image:url("images of web/purple bullet correct.png");
+    list-style-position:inside; 
+}
+.zipton {
+    cursor:alias;
+}
+.scatter {
+    opacity: 2;
+}
+.gangster{
+    margin-left: 5px;
+    margin-top: -15px;
+    filter: brightness(135%);
+    filter: saturate(250%);
+}
+.intel{
+    display: none;
+    text-decoration: underline;
+}
+.gross{
+    background-color: #3217ff;
+    border-color: #3217ff ;
+    border-radius: 3px;
+}
+.strap{
+    padding-bottom: 15px;
+}

@@ -1,0 +1,43 @@
+body{
+    background-color: #ccc;
+    height: 100%;
+    margin: 0%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family: 'audiowide';
+}
+::placeholder{
+    color: #2e8b57;
+    font-size: 20px;
+    font-family: "audiowide";
+}
+.loginbox{
+    background-color: #fff;
+    width: 900px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius: 7px;
+}
+.status{
+    padding-left: 25px;
+    font-size: 35px;
+}
+.statusbox{
+    width: 99%;
+    height: 50px;
+    font-size: 20px;
+}
+.statusbox2{
+    width: 89%;
+    height: 50px;
+    font-size: 20px;
+}
+.trojan{
+  width: 30px;
+  height: 30px;
+  margin-left: 16px;
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  transform: scale(1.5);
+}
