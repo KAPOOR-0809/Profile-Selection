@@ -9,7 +9,7 @@ body{
   background-color: #21e788;
   color: #000;
 }
-a{
+.topnav a{
   color: white;
   text-decoration: none;
   cursor: pointer;
