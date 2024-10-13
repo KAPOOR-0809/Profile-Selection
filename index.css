@@ -9,6 +9,11 @@ body{
   background-color: #21e788;
   color: #000;
 }
+a{
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
 .header{
     display: flex;
     justify-content: space-between;
