@@ -1,0 +1,18 @@
+body{
+    background: linear-gradient(to bottom right, #283c86, #366d68, #45a247);
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    height: 100%;
+    min-height: 100vh;
+}
+::selection{
+    background-color: #21e788;
+    color: #000;
+}
+h1{
+    text-align: center;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
