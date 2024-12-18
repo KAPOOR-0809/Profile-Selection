@@ -20,7 +20,7 @@ a{
 }
  .imgprof{
     border-radius: 50%;
-   background: linear-gradient(to top right, #12c2e9, #c471ed, #f64f59);
+   background: linear-gradient(to top right, #FF0000ff, #ff0AfAff, #0000ffff);
    padding: 8px;
    transform: translate(15%, 20%);
 }
@@ -37,19 +37,30 @@ a{
     /* display: inline-block; */
     /* text-align: left; */
 }
-   
+.username-container {
+    text-align: center; /* Center-align content */
+    margin-top: 20px;  /* Add spacing from the top */
+
+}
+
+.username-container h1 {
+    margin-bottom: 10px; /* Space between username and editable text */
+}
+
+
+
 .descript{
-    transform: translate(82%, -200%);
+    transform: translate(80%, -250%);
      background-color: #ccc;
-    width: fit-content;
+    width: 300px;
    padding: 5px;
     border-radius: 12px;
 }
 
 .sidebar {
     border-radius: 6px;
-    height: 35%;
-    width: 180px;
+    height: 100%;
+    width: 300px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -60,14 +71,21 @@ a{
   }
   
   .sidebar a {
-    padding: 6px 6px 6px 60px;
+    left: 50;
+    padding: 6px 6px 6px 120px;
     text-decoration: none;
     font-size: 20px;
     background-color: #426B1F;
     color: #fff;
     display: block;
-    transition: all 1s;
+    transition: all 0.3s;
   }
+  
+  .sidebar a:hover {
+    color: #426B1F;
+    background-color: #fff;
+  }
+
   
   .sidebar a:hover {
     color: #426B1F;
