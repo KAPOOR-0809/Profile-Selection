@@ -69,6 +69,15 @@
         <h2> Nature Exclusive <br> Frame </h2>
     </div>
 
+     <script>
+      function selectProfileImage(imageSrc) {
+    // Store the selected image source in localStorage
+    localStorage.setItem('selectedProfileImage', imageSrc);
+    // Redirect to profile page
+    window.location.href = 'profile.html';
+}
+    </script>
+
     <br>
     <h3> <a href="marketplace.html"> Get More Frames </a> </h3>
 </body>
